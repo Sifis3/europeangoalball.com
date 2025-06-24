@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - EGCA European 2025 Goalball Tournament</title>
+    <link rel="preconnect" href="Screenshot 2025-06-22 150409.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" aria-label="EGCA European 2025 Home">
+                    <h2>EGCA European 2025</h2>
+                </a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="info.html" class="nav-link">Info</a>
+                <a href="invitations.html" class="nav-link">Invitations</a>
+                <a href="teams.html" class="nav-link">Teams</a>
+                <a href="results.html" class="nav-link active" aria-current="page">Results</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="help.html" class="nav-link">Help</a>
+            </div>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Tournament Results</h1>
+                <p class="page-subtitle">Match results and team standings</p>
+            </div>
+
+            <!-- Tournament Status -->
+            <section class="content-section" aria-labelledby="status-title">
+                <div class="content-card">
+                    <h2 id="status-title">Tournament Status</h2>
+                    <div class="tournament-status">
+                        <div class="status-item">
+                            <h3>🏆 Current Phase</h3>
+                            <p>Preparation Phase - 2025 Tournament</p>
+                        </div>
+                        <div class="status-item">
+                            <h3>📅 Tournament Dates</h3>
+                            <p>To be announced</p>
+                        </div>
+                        <div class="status-item">
+                            <h3>🎯 Participating Teams</h3>
+                            <p>Registration in progress</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Standings Table -->
+            <section class="content-section" aria-labelledby="standings-title">
+                <div class="content-card">
+                    <h2 id="standings-title">Team Standings</h2>
+                    <p>Current team standings will be updated during the tournament.</p>
+                    <div class="table-container">
+                        <table class="results-table" aria-label="Team standings table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Rank</th>
+                                    <th scope="col">Team</th>
+                                    <th scope="col">Country</th>
+                                    <th scope="col">Played</th>
+                                    <th scope="col">Won</th>
+                                    <th scope="col">Lost</th>
+                                    <th scope="col">Points</th>
+                                </tr>
+                            </thead>
+                            <tbody id="standingsTableBody">
+                                <tr>
+                                    <td colspan="7" class="no-data">Tournament results will be displayed here during the event</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Match Results -->
+            <section class="content-section" aria-labelledby="matches-title">
+                <div class="content-card">
+                    <h2 id="matches-title">Match Results</h2>
+                    <p>Individual match results and scores will be updated in real-time during the tournament.</p>
+                    
+                    <div class="match-filters">
+                        <button class="filter-btn active" data-match-filter="all">All Matches</button>
+                        <button class="filter-btn" data-match-filter="group">Group Stage</button>
+                        <button class="filter-btn" data-match-filter="knockout">Knockout</button>
+                        <button class="filter-btn" data-match-filter="final">Finals</button>
+                    </div>
+
+                    <div class="matches-container" id="matchesContainer">
+                        <div class="no-matches">
+                            <h3>🏆 Tournament Preview</h3>
+                            <p>
+                                Matches will be scheduled and results will be displayed here once the tournament begins. 
+                                Each match will show detailed scores, timing, and key statistics.
+                            </p>
+                            <div class="match-preview">
+                                <h4>Expected Match Format:</h4>
+                                <ul>
+                                    <li>Group stage matches</li>
+                                    <li>Knockout elimination rounds</li>
+                                    <li>Semi-finals and finals</li>
+                                    <li>Third place playoff</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics -->
+            <section class="content-section" aria-labelledby="stats-title">
+                <div class="content-card">
+                    <h2 id="stats-title">Tournament Statistics</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>🎯 Total Matches</h3>
+                            <p class="stat-number">TBA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>⚽ Total Goals</h3>
+                            <p class="stat-number">TBA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>🏅 Teams Competing</h3>
+                            <p class="stat-number">TBA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>🌍 Countries</h3>
+                            <p class="stat-number">TBA</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Schedule -->
+            <section class="content-section" aria-labelledby="schedule-title">
+                <div class="content-card">
+                    <h2 id="schedule-title">Tournament Schedule</h2>
+                    <p>The complete tournament schedule will be published once team registration is finalized.</p>
+                    
+                    <div class="schedule-preview">
+                        <div class="schedule-day">
+                            <h3>Day 1 - Opening Ceremony & Group Matches</h3>
+                            <p>Tournament opening and initial group stage matches</p>
+                        </div>
+                        <div class="schedule-day">
+                            <h3>Day 2-3 - Group Stage</h3>
+                            <p>Round-robin matches within groups</p>
+                        </div>
+                        <div class="schedule-day">
+                            <h3>Day 4 - Knockout Rounds</h3>
+                            <p>Quarter-finals and semi-finals</p>
+                        </div>
+                        <div class="schedule-day">
+                            <h3>Day 5 - Finals & Closing Ceremony</h3>
+                            <p>Third place playoff, final match, and awards ceremony</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EGCA European 2025</h3>
+                    <p>Promoting inclusive sports and celebrating athletic excellence.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="info.html">About Goalball</a></li>
+                        <li><a href="teams.html">Participating Teams</a></li>
+                        <li><a href="results.html">Results</a></li>
+                        <li><a href="help.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Thessaloniki, Greece</p>
+                    <p>📞 +30 697 288 4154</p>
+                    <p>✉️ kleio.thessaloniki@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EGCA European Goalball Tournament. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <span>↑</span>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - EGCA European 2025 Goalball Tournament</title>
+    <link rel="preconnect" href="Screenshot 2025-06-22 150409.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Accessibility Toolbar -->
+    <div class="accessibility-toolbar" id="accessibilityToolbar">
+        <div class="container">
+            <div class="accessibility-controls">
+                <div class="font-controls">
+                    <span class="control-label">Font Size:</span>
+                    <button class="accessibility-btn" id="decreaseFont" aria-label="Decrease font size">A−</button>
+                    <button class="accessibility-btn" id="normalFont" aria-label="Normal font size">A</button>
+                    <button class="accessibility-btn" id="increaseFont" aria-label="Increase font size">A+</button>
+                </div>
+                <div class="theme-controls">
+                    <span class="control-label">Theme:</span>
+                    <button class="accessibility-btn" id="defaultTheme" aria-label="Default theme">Default</button>
+                    <button class="accessibility-btn" id="highContrastTheme" aria-label="High contrast theme">High Contrast</button>
+                    <button class="accessibility-btn" id="darkTheme" aria-label="Dark theme">Dark</button>
+                </div>
+                <div class="display-controls">
+                    <button class="accessibility-btn" id="toggleImages" aria-label="Toggle images">
+                        <span id="imageToggleText">Hide Images</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" aria-label="EGCA European 2025 Home">
+                    <h2>EGCA European 2025</h2>
+                </a>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="info.html" class="nav-link">Info</a>
+                <a href="invitations.html" class="nav-link">Invitations</a>
+                <a href="teams.html" class="nav-link">Teams</a>
+                <a href="results.html" class="nav-link">Results</a>
+                <a href="news.html" class="nav-link active" aria-current="page">News</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="help.html" class="nav-link">Help</a>
+            </div>
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <h1>Tournament News</h1>
+                <p class="page-subtitle">Latest updates and announcements from the EGCA European 2025</p>
+            </div>
+
+            <!-- Featured News -->
+            <section class="content-section" aria-labelledby="featured-title">
+                <div class="content-card featured-news">
+                    <div class="news-badge">Featured</div>
+                    <h2 id="featured-title">Opening Ceremony Highlights Revealed</h2>
+                    <div class="news-meta">
+                        <span class="news-date">📅 January 15, 2025</span>
+                        <span class="news-category">🎉 Event</span>
+                    </div>
+                    <div class="news-content">
+                        <p>
+                            We're excited to announce the spectacular lineup for our opening ceremony! 
+                            The event will feature performances by local Greek artists, a parade of nations, 
+                            and inspiring speeches from Paralympic champions. The ceremony will celebrate 
+                            the spirit of inclusive sports and showcase the rich cultural heritage of 
+                            Thessaloniki.
+                        </p>
+                        <p>
+                            Special guests include former Paralympic medalists and representatives from 
+                            the International Blind Sports Federation (IBSA). The ceremony will be 
+                            broadcast live with audio description services for visually impaired viewers.
+                        </p>
+                        <div class="news-highlights">
+                            <h3>Ceremony Highlights:</h3>
+                            <ul>
+                                <li>Traditional Greek cultural performances</li>
+                                <li>Parade of participating nations</li>
+                                <li>Lighting of the tournament flame</li>
+                                <li>Inspirational speeches from Paralympic champions</li>
+                                <li>Live musical performances</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News Grid -->
+            <section class="content-section" aria-labelledby="news-title">
+                <h2 id="news-title">Recent Updates</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-header">
+                            <h3>Tournament Venue Officially Confirmed</h3>
+                            <div class="news-meta">
+                                <span class="news-date">📅 January 10, 2025</span>
+                                <span class="news-category">📍 Venue</span>
+                            </div>
+                        </div>
+                        <div class="news-excerpt">
+                            <p>
+                                The Thessaloniki Sports Complex has been officially confirmed as the venue 
+                                for the EGCA European 2025 Goalball Tournament. The facility features 
+                                state-of-the-art accessibility features and meets all international 
+                                goalball standards.
+                            </p>
+                            <p>
+                                The venue includes dedicated spaces for warm-up, medical support, and 
+                                spectator areas with audio description services. All areas are fully 
+                                accessible with tactile guidance systems and trained volunteer support.
+                            </p>
+                        </div>
+                        <div class="news-footer">
+                            <span class="read-time">⏱️ 3 min read</span>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-header">
+                            <h3>International Referees Panel Announced</h3>
+                            <div class="news-meta">
+                                <span class="news-date">📅 January 8, 2025</span>
+                                <span class="news-category">👥 Officials</span>
+                            </div>
+                        </div>
+                        <div class="news-excerpt">
+                            <p>
+                                We're pleased to announce the selection of highly qualified international 
+                                referees who will officiate the tournament matches. The panel includes 
+                                certified IBSA referees with extensive experience in European and World 
+                                Championship competitions.
+                            </p>
+                            <p>
+                                All referees have completed specialized training in the latest goalball 
+                                regulations and will ensure fair play throughout the tournament. The 
+                                panel represents multiple European countries, bringing diverse expertise 
+                                to the competition.
+                            </p>
+                        </div>
+                        <div class="news-footer">
+                            <span class="read-time">⏱️ 2 min read</span>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-header">
+                            <h3>Team Registration Deadline Extended</h3>
+                            <div class="news-meta">
+                                <span class="news-date">📅 January 5, 2025</span>
+                                <span class="news-category">📋 Registration</span>
+                            </div>
+                        </div>
+                        <div class="news-excerpt">
+                            <p>
+                                Due to high interest from European goalball federations, we have extended 
+                                the team registration deadline to accommodate additional teams. This 
+                                extension allows more athletes to participate in this prestigious tournament.
+                            </p>
+                            <p>
+                                Teams interested in participating should contact our registration 
+                                coordinator immediately. All required documentation and eligibility 
+                                requirements remain the same. We're excited to welcome more teams to 
+                                this celebration of adaptive sports.
+                            </p>
+                        </div>
+                        <div class="news-footer">
+                            <span class="read-time">⏱️ 2 min read</span>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-header">
+                            <h3>Volunteer Training Program Launched</h3>
+                            <div class="news-meta">
+                                <span class="news-date">📅 January 3, 2025</span>
+                                <span class="news-category">🤝 Volunteers</span>
+                            </div>
+                        </div>
+                        <div class="news-excerpt">
+                            <p>
+                                Our comprehensive volunteer training program has officially launched! 
+                                Volunteers will receive specialized training in goalball regulations, 
+                                accessibility support, and emergency procedures to ensure excellent 
+                                service for all participants.
+                            </p>
+                            <p>
+                                The program covers communication techniques for supporting visually 
+                                impaired athletes, venue navigation assistance, and cultural sensitivity 
+                                training. All volunteers will be equipped with the knowledge and skills 
+                                needed to create an inclusive environment.
+                            </p>
+                        </div>
+                        <div class="news-footer">
+                            <span class="read-time">⏱️ 3 min read</span>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-header">
+                            <h3>Live Streaming and Media Coverage Announced</h3>
+                            <div class="news-meta">
+                                <span class="news-date">📅 December 28, 2024</span>
+                                <span class="news-category">📺 Media</span>
+                            </div>
+                        </div>
+                        <div class="news-excerpt">
+                            <p>
+                                All tournament matches will be available via live streaming with 
+                                professional commentary and audio description services. This ensures 
+                                that fans worldwide can follow the action and support their teams.
+                            </p>
+                            <p>
+                                Our media partnership includes multilingual commentary, real-time 
+                                statistics, and post-match interviews with players and coaches. 
+                                The coverage will highlight the skill and athleticism of goalball 
+                                at the highest level.
+                            </p>
+                        </div>
+                        <div class="news-footer">
+                            <span class="read-time">⏱️ 2 min read</span>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-header">
+                            <h3>Accommodation and Transportation Updates</h3>
+                            <div class="news-meta">
+                                <span class="news-date">📅 December 25, 2024</span>
+                                <span class="news-category">🏨 Logistics</span>
+                            </div>
+                        </div>
+                        <div class="news-excerpt">
+                            <p>
+                                We've secured partnerships with accessible hotels throughout Thessaloniki 
+                                to accommodate all participating teams and officials. Transportation 
+                                services will include specially equipped vehicles with audio announcements 
+                                and trained drivers.
+                            </p>
+                            <p>
+                                All accommodation options have been personally inspected to ensure 
+                                accessibility standards are met. Teams will receive detailed information 
+                                about their lodging and transportation arrangements well in advance 
+                                of the tournament.
+                            </p>
+                        </div>
+                        <div class="news-footer">
+                            <span class="read-time">⏱️ 3 min read</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Newsletter Signup -->
+            <section class="content-section" aria-labelledby="newsletter-title">
+                <div class="content-card newsletter-signup">
+                    <h2 id="newsletter-title">Stay Updated</h2>
+                    <p>
+                        Subscribe to our newsletter to receive the latest tournament updates, 
+                        match schedules, and exclusive behind-the-scenes content directly in your inbox.
+                    </p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="form-group">
+                            <label for="newsletter-email" class="sr-only">Email address for newsletter</label>
+                            <input type="email" id="newsletter-email" name="email" 
+                                   placeholder="Enter your email address" required
+                                   aria-describedby="newsletter-email-error">
+                            <div class="error-message" id="newsletter-email-error" role="alert"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                    <p class="newsletter-note">
+                        We respect your privacy. Unsubscribe at any time. 
+                        <a href="help.html">Contact us</a> for more information.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EGCA European 2025</h3>
+                    <p>Promoting inclusive sports and celebrating athletic excellence.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="info.html">About Goalball</a></li>
+                        <li><a href="teams.html">Participating Teams</a></li>
+                        <li><a href="results.html">Results</a></li>
+                        <li><a href="help.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Thessaloniki, Greece</p>
+                    <p>📞 +30 697 288 4154</p>
+                    <p>✉️ kleio.thessaloniki@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EGCA European Goalball Tournament. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+        <span>↑</span>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
